@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    background: lightsalmon;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.nav-group{
+    flex: 1;
+}
+
+.nav-group.right-group{
+    justify-content: right;
+}
+
+.nav-group.middle-group{
+    justify-content: center;
+    align-items: center;
+}
+.nav-group{
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.left,
+.right {
+    color: blue;
+    background: white;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+}
+
+.logo{
+    padding: 10px 20px;
+    margin: 10px;
+    background: white;
+    color: red;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+}
