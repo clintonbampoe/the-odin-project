@@ -1,0 +1,15 @@
+{
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true
+  },
+
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true
+  }
+}
